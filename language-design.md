@@ -17,6 +17,18 @@ For each quote, describe what it was about the quote that led you pick it.
 
 **Response**
 
+"Obey the principle of least astonishment. Every method should do the least surprising thing it could, given its name" [Bloch, 2006]. 
+
+I chose this quote because I thought is was a good rule to go by for programming in general. I had not heard of this principle before, but it is something that I hope to follow in the future. Naming variables and functions can often see unimportant, but if someone else looks at my code they may be confused. Also, even if I choose names that make sense to me, they may not make sense to others. 
+
+"The existence of a master plan alienates the users" [Steele, 1998].
+
+I found it interesting that master plans are discouraged because how else would the future of the language be controlled. I guess the point is that they shouldn't be controlled, but then why even make a new language in the first place if you don't have a specific vision for its use. I think a master plan can still work for the development of a new language if all of the contributors agree on the fundamental ideas. 
+
+"A thought that seems like a primitive in our minds turns out not to be a primitive in a programming language, and in each new program we must define it once more" [Steele, 1998].
+
+This made me think of my process of learning smaller languages like Coq. Simple things I had taken for granted in the past like addition and subtraction had to be defined. In other languages like Python, I would never have to do anything like that which I prefer. 
+
 ---
 
 **Question**
@@ -26,6 +38,8 @@ you know a poorly designed language? What are the symptoms?
 
 **Response**
 
+A well designed language would have just enough features to support the language's intended purpose and not more than that. If there are too many features, then it can be harder for new users to learn and nobody will use the language. However, at the same time you want to have enough features so that it is advanced enough to use for complex tasks. Symptoms of a poorly designed language include people struggling to learn the language. Perl, for example, is a popular programming language but is very difficult to learn. C++ is another language I can think of that is popular but notoriously difficult for newcomers. Symptoms of a well-designed language may be there are a lot of active contributors. That means that the language is at a state where many people find value in it and want to invest in its future, but it isn't so complex that people don't want to learn it. Good languages should also be hard to misuse. If a programmer is doing something wrong they should be prevented from doing it, so they don't waste their time with broken code. It should also be easy to read and debug. Good languages should also have proper documentation. It shouldn't take that many outside resources to learn it. However it is understandable if some new users struggle to learn it. Even Python has courses to learn it, but someone with a basic understanding of programming should be able to pick it up relatively quickly. Having an active community is also helpful to introduce new users to the language because they can help with any issues in online forums. 
+
 ---
 
 **Question**
@@ -33,6 +47,8 @@ you know a poorly designed language? What are the symptoms?
 How might the themes of _Growing a Language_ relate to ideas from the Fowler reading?
 
 **Response**
+
+Fowler talks about how DSL's should be very simple and therefore easier to learn. This is similar to how Steele's argument that overbuilding a new language will scare away new users because it will be hard to learn. 
 
 ---
 
